@@ -1,0 +1,12 @@
+# 用户配置文件（包含本地路径）
+assets/config.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
