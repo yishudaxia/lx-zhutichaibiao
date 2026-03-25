@@ -10,6 +10,28 @@
 - **特定文件规则**：按文件名关键词匹配，支持不同文件使用不同拆分规则
 - **统一格式输出**：等线 10号、居中、自适应列宽
 
+## 安装
+
+### 方式一：通过 Claude Code 安装（推荐）
+
+将以下指令发给 Claude Code：
+
+```
+从 https://github.com/yishudaxia/lx-zhutichaibiao 下载这个 skill，解压后放到 ~/.claude/skills/ 目录下，文件夹命名为 lx-zhutichaibiao
+```
+
+安装完成后，在 Claude Code 中说 "拆主体表"、"主体拆表"、"zhutichaibiao" 即可触发拆分流程。
+
+### 方式二：手动安装
+
+```bash
+# 克隆仓库
+git clone https://github.com/yishudaxia/lx-zhutichaibiao.git
+
+# 复制到 Claude Code skills 目录
+cp -r lx-zhutichaibiao ~/.claude/skills/
+```
+
 ## 快速开始
 
 ### 1. 安装依赖
@@ -75,7 +97,7 @@ python scripts/split_by_zhuti.py
 # 用户配置
 项目根目录: "/Users/xxx/projects/my-project"
 码表路径: "/Users/xxx/data/码表.xlsx"
-对接人: "LWL"
+对接人: "张三"
 工作目录: "/Users/xxx/projects/my-project/p-主体拆表"
 
 # 默认规则
