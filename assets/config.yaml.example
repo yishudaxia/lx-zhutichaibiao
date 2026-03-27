@@ -15,7 +15,8 @@
 
 # 码表文件路径（绝对路径或相对于项目根目录）
 # 码表包含：城市、品牌、运营主体、对接人 的映射关系
-# 示例：./data/码表.xlsx 或 /Users/xxx/projects/my-project/data/码表.xlsx
+# 推荐位置：./config/lx码表.xlsx（与其他技能共享）
+# 示例：./config/lx码表.xlsx 或 /Users/xxx/projects/my-project/config/lx码表.xlsx
 码表路径: ""
 
 # 对接人（用于筛选码表中的运营主体）
